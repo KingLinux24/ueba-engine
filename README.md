@@ -57,12 +57,15 @@ uvicorn src.api.app:app --reload --port 8000
 ### 2. Using the API
 Once Uvicorn is running, the API will be hosted locally on port 8000.
 
-* **Important: Navigating to the base URL (http://127.0.0.1:8000/) will result in a 404 Not Found error unless you have explicitly coded a root route.
+* Important: Navigating to the base URL (http://127.0.0.1:8000/) will result in a 404 Not Found error unless you have explicitly coded a root route.
 
 View Alerts: To see the JSON output of the anomalous alerts, navigate directly to the /alerts endpoint:
 
-* **http://127.0.0.1:8000/alerts
+* http://127.0.0.1:8000/alerts
 
 Interactive API Docs: FastAPI automatically generates a Swagger UI where you can explore and test your endpoints interactively. Visit:
 
-* **http://127.0.0.1:8000/docs
+* http://127.0.0.1:8000/docs
+ --- 
+<img width="1906" height="746" alt="Screenshot 2026-06-03 092303" src="https://github.com/user-attachments/assets/b1c3bf70-46e1-4905-9d15-f34df4d38b1a" />
+---
